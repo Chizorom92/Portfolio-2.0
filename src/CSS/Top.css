@@ -1,0 +1,36 @@
+/*  Scroll To Top Button  */
+#scroll-top {
+  display: none; 
+  position: fixed;
+  bottom: 36px;
+  right: 36px;
+  z-index: 9999;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: none;
+  background-color: #a78bfa;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(167, 139, 250, 0.35);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#scroll-top:hover {
+  background-color: #9061f9;
+  transform: translateY(-3px);
+}
+
+/*  Mobile  */
+@media (max-width: 575px) {
+  #scroll-top {
+    bottom: 24px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}

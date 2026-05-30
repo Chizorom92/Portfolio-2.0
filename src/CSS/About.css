@@ -1,0 +1,349 @@
+
+
+
+
+
+/* ─── Base Styles (Desktop: 1200px+) ─── */
+.About-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px 80px;
+  gap: 60px;
+}
+
+.About-info {
+  flex: 1;
+  max-width: 55%;
+}
+
+.About-head {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.About-p {
+  font-size: 1.25rem;
+  line-height: 1.85;
+  color: #ccc;
+  text-align: justify;
+}
+
+/* ─── Contact Cards ─── */
+.About-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  max-width: 40%;
+}
+
+.myInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  transition: background 0.3s ease;
+}
+
+.myInfo:hover {
+  background-color: #2a2a2a;
+}
+
+.myInfo span:first-child {
+  font-size: 1.3rem;
+  color: #a78bfa;
+  min-width: 24px;
+  text-align: center;
+}
+
+#title {
+  font-size: 0.78rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 80px;
+}
+
+.myInfo span:last-child {
+  font-size: 0.98rem;
+  color: #fff;
+}
+
+.myInfo a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.myInfo a:hover {
+  color: #a78bfa;
+}
+
+
+/* ─── Large Laptops (1024px – 1199px) ─── */
+@media (max-width: 1199px) {
+  .About-main {
+    padding: 70px 60px;
+    gap: 40px;
+  }
+
+  .About-head {
+    font-size: 2.4rem;
+  }
+
+  .About-p {
+    font-size: 1.25rem;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+/* ─── Small Laptops / Large Tablets Landscape (768px – 1023px) ─── */
+@media (max-width: 1023px) {
+  .About-main {
+    padding: 60px 40px;
+    gap: 36px;
+  }
+
+  .About-info {
+    max-width: 52%;
+  }
+
+  .About-contact {
+    max-width: 44%;
+  }
+
+  .About-head {
+    font-size: 2.1rem;
+  }
+
+  .About-p {
+    font-size: 0.97rem;
+    line-height: 1.75;
+    text-align: justify;
+  }
+
+  .myInfo {
+    padding: 12px 16px;
+    gap: 12px;
+  }
+}
+
+
+/* ─── Tablets Portrait (576px – 767px) ─── */
+@media (max-width: 767px) {
+  .About-main {
+    flex-direction: column;  /* stack info above contact */
+    align-items: center;
+    padding: 50px 30px;
+    gap: 40px;
+  }
+
+  .About-info {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .About-contact {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .About-head {
+    font-size: 2rem;
+  }
+
+  .About-p {
+    font-size: 1.25rem;
+    line-height: 1.75;
+    text-align: justify;
+  }
+
+  .myInfo {
+    justify-content: flex-start;
+  }
+}
+
+
+/* ─── Large Phones (480px – 575px) ─── */
+@media (max-width: 575px) {
+  .About-main {
+    padding: 40px 20px;
+    gap: 32px;
+  }
+
+  .About-head {
+    font-size: 1.8rem;
+  }
+
+  .About-p {
+    font-size: 0.93rem;
+    line-height: 1.7;
+  }
+
+  .myInfo {
+    padding: 12px 14px;
+    gap: 10px;
+    border-radius: 8px;
+  }
+
+  #title {
+    min-width: 70px;
+    font-size: 0.72rem;
+  }
+
+  .myInfo span:last-child {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* ─── Small Phones (max 479px) ─── */
+@media (max-width: 479px) {
+  .About-main {
+    padding: 32px 16px;
+    gap: 28px;
+  }
+
+  .About-head {
+    font-size: 1.6rem;
+  }
+
+  .About-p {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    text-align: justify;
+  }
+
+  .myInfo {
+    /* flex-wrap: wrap; */
+    gap: 8px;
+    padding: 12px;
+  }
+
+  #title {
+    min-width: 60px;
+    font-size: 0.7rem;
+  }
+
+  .myInfo span:last-child {
+    font-size: 0.85rem;
+  }
+
+  .myInfo span:first-child {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .About-main{
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+.About-head{
+font-family: verdana;
+}
+
+.About-p{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+font-family: verdana;
+font-size: 20px;
+letter-spacing: 2px;
+line-height: 28px;
+}
+
+.About-contact{
+display: flex;
+margin-top: 30px;
+justify-content: space-evenly;
+}
+
+.myInfo{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.fa-address-card,
+.fa-x,
+.fa-phone,
+.fa-envelope{
+  border: 1px solid #291b1b ;
+  background: #200f0f;
+  border-radius: 50%;
+  padding: 25px;
+  color: green;
+}
+
+.myInfo:hover .fa-address-card{
+  color: rgb(217, 226, 217);
+  transition:  0.5s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.myInfo:hover .fa-x{
+  color: rgb(217, 226, 217);
+  transition:  0.5s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.myInfo:hover .fa-phone{
+  color: rgb(217, 226, 217);
+  transition:  0.5s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.myInfo:hover .fa-envelope{
+  color: rgb(217, 226, 217);
+  transition:  0.5s ease-in-out;
+  transform: translateY(-5px);
+}
+
+#icon{
+  border: 1px solid #291b1b ;
+  background: #200f0f;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+#title{
+  font-weight: 700;
+  font-family: verdana;
+}
+
+
+.myInfo a{
+  text-decoration: none;
+  color: inherit;
+  color: rgb(211, 201, 201);
+}  */
+

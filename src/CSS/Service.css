@@ -1,0 +1,283 @@
+
+
+/*  Base Styles (Desktop: 1200px+)  */
+.service-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 80px;
+  gap: 50px;
+  margin-top: -75px;
+}
+
+.service-h {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+
+/* Decorative underline on heading */
+.service-h::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #a78bfa;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/*  Cards Row  */
+.service-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+  font-family: cursive;
+  
+}
+
+/*  Individual Card  */
+.service-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 14px;
+  background-color: #1a1a1a;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
+  gap: 14px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: default;
+}
+
+.service-inner:hover {
+  transform: translateY(-6px);
+  background-color: #2a2a2a;
+}
+
+#icons {
+  font-size: 2.8rem;
+  display: block;
+}
+
+.service-inner span:last-child {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.5;
+}
+
+/* Active/highlighted card */
+#dev {
+  background-color: #a78bfa;
+  
+  
+}
+
+#dev:hover {
+  background: linear-gradient(360deg, black, blue);
+  color: rgb(15, 2, 2);
+}
+
+
+/*  Large Laptops (1024px – 1199px)  */
+@media (max-width: 1199px) {
+  .service-main {
+    padding: 70px 60px;
+    gap: 40px;
+    margin-top: -75px;
+  }
+
+  .service-h {
+    font-size: 2.4rem;
+  }
+
+  .service-inner {
+    padding: 36px 26px;
+    max-width: 260px;
+  }
+
+  #icons {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+/*  Small Laptops / Landscape Tablets (768px – 1023px)  */
+@media (max-width: 1023px) {
+  .service-main {
+    padding: 60px 40px;
+    gap: 36px;
+    margin-top: -75px;
+  }
+
+  .service-h {
+    font-size: 2.1rem;
+  }
+
+  .service-info {
+    gap: 20px;
+  }
+
+  .service-inner {
+    padding: 30px 22px;
+    min-width: 180px;
+    max-width: 240px;
+  }
+
+  #icons {
+    font-size: 2.3rem;
+  }
+
+  .service-inner span:last-child {
+    font-size: 0.97rem;
+  }
+}
+
+
+/*  Tablets Portrait (576px – 767px)  */
+@media (max-width: 767px) {
+  .service-main {
+    padding: 50px 30px;
+    gap: 30px;
+    margin-top: -75px;
+  }
+
+  .service-h {
+    font-size: 1.9rem;
+  }
+
+  .service-info {
+    gap: 18px;
+  }
+
+  /* Cards go to 2 per row */
+  .service-inner {
+    min-width: calc(45% - 10px);
+    max-width: calc(50% - 10px);
+    padding: 28px 20px;
+  }
+
+  #icons {
+    font-size: 2.1rem;
+  }
+}
+
+
+/*  Large Phones (480px – 575px)  */
+@media (max-width: 575px) {
+  .service-main {
+    padding: 40px 20px;
+    gap: 24px;
+    margin-top: -75px;
+  }
+
+  .service-h {
+    font-size: 1.7rem;
+  }
+
+  .service-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Cards go full width */
+  .service-inner {
+    width: 100%;
+    min-width: unset;
+    max-width: 100%;
+    padding: 28px 24px;
+    flex-direction: row;        /* icon + text side by side */
+    justify-content: flex-start;
+    text-align: left;
+    gap: 20px;
+  }
+
+  #icons {
+    font-size: 2rem;
+    min-width: 40px;
+  }
+
+  .service-inner span:last-child {
+    font-size: 1rem;
+  }
+}
+
+
+/*  Small Phones (max 479px)  */
+@media (max-width: 479px) {
+  .service-main {
+    padding: 32px 16px;
+    gap: 20px;
+    margin-top: -75px;
+  }
+
+  .service-h {
+    font-size: 1.5rem;
+  }
+
+  .service-inner {
+    padding: 22px 18px;
+    gap: 14px;
+    border-radius: 10px;
+  }
+
+  #icons {
+    font-size: 1.8rem;
+    min-width: 34px;
+  }
+
+  .service-inner span:last-child {
+    font-size: 0.92rem;
+  }
+}
+
+
+
+
+
+
+/* 
+
+.service-main{
+flex-direction: column;;
+margin-bottom: 50px;
+
+}
+
+.service-info{
+display: flex;
+justify-content: space-around;
+text-align: left;
+
+}
+
+.service-inner{
+  background: rgb(51, 41, 41);
+  border: none;
+  padding: 10px 40px 25px;
+  width: 25%;
+  color: gray;
+  font-size: 18px;
+  font-family: verdana;
+}
+
+#icons{
+  font-size: 40px;
+}
+
+
+#dev{
+  border-bottom: 4px solid green;
+} */
