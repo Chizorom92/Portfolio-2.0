@@ -32,7 +32,7 @@ const Contact = () => {
       });
   };
 
-  // ── Success screen ───────────────────────────────────────────
+  //  Success screen 
   if (status === "sent") {
     return (
       <div className="contact" id="contact">
@@ -46,7 +46,7 @@ const Contact = () => {
     );
   }
 
-  // ── Main form ────────────────────────────────────────────────
+  //  Main form 
   return (
     <div className="contact" id="contact">
       <h2>Get in touch</h2>
