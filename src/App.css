@@ -8,3 +8,7 @@
   text-align: center;
 } 
 
+html, body{
+  scroll-behavior: smooth;
+  scroll-padding: 200px;
+}

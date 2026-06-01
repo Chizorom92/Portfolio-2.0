@@ -25,7 +25,7 @@ const About = () => {
         <div className="About-contact">
           <div className="myInfo">
             <span>
-              <i class="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-address-card"></i>
             </span>
             <span id="title">FullName</span>
             <span>Maurice Benjamin Chizorom</span>
@@ -42,7 +42,7 @@ const About = () => {
           <div className="myInfo">
             <span>
              <a href="https://x.com/Benjaminmbabie" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-x"></i>
+                <i className="fa-solid fa-x"></i>
               </a>
             </span>
             <span id="title">X/Twitter</span>
@@ -54,7 +54,7 @@ const About = () => {
           </div>
 
           <div className="myInfo">
-            <span ><a href="tel:+2348028682900"> <i class="fa-solid fa-phone"></i></a></span>
+            <span ><a href="tel:+2348028682900"> <i className="fa-solid fa-phone"></i></a></span>
             <span id="title">Phone</span>
             <span>
               <a href="tel:+2348028682900">(+234) 8028682900</a>

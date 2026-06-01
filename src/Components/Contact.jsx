@@ -12,6 +12,7 @@ const PUBLIC_KEY  = "l3JXakprdkz9LZna1";  // e.g. "aBcDeFgHiJkLmNoP"
 const Contact = () => {
   const formRef = useRef(null);
   const maxNum  = 11;
+  const minNum  = 8;
 
   // "idle" | "sending" | "sent" | "error"
   const [status, setStatus] = useState("idle");
@@ -59,9 +60,9 @@ const Contact = () => {
           </div>
 
           <div className="input-flex">
-            <input type="email" name="reply_to"    placeholder="Email" id="email"       required />
+            <input type="email" name="to_email"    placeholder="Email" id="to_email"       required />
             <input type="tel"   name="phone"       placeholder="Phone Number" id="num"
-                   maxLength={maxNum}              required />
+                   minLength={minNum} maxLength={maxNum}              required />
           </div>
         </div>
         <br className="bg-" />
