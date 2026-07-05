@@ -35,6 +35,16 @@ const Skills = () => {
           <span id="value">50%</span> <br />
           <span id="skillName">SQL</span>
         </div>
+        
+        <div className="skill-info">
+          <span id="value">60%</span> <br />
+          <span id="skillName">Tailwind Css</span>
+        </div>
+
+        <div className="skill-info">
+          <span id="value">10%</span> <br />
+          <span id="skillName">JAVA</span>
+        </div>
       </div>
     </>
   );

@@ -69,7 +69,7 @@ export const Project =  [
 
     mark: '⌛',
 
-    link: 'https://chizorom92.github.io/Real-estate-site/',
+    link: ' https://chizorom92.github.io/LUMI-AI/',
 
     linkicon : links
   
@@ -92,6 +92,29 @@ export const Project =  [
     mark: '✔',
 
     link: 'https://chizorom92.github.io/E-commerce-site/',
+
+    linkicon : links
+
+  
+  },
+
+  {
+    id: 5,
+
+    emoji: '🛒',
+
+    title: 'GERA Farm Website', 
+
+    description: "GERA Farm is a responsive website designed to showcase the products and services of an organic farm. The project focuses on creating a visually appealing layout, highlighting the farm's offerings, and providing users with an easy way to navigate through the site.",
+
+    status: 'COMPLETED',
+    update: 'live',
+
+    github: 'https://github.com/Chizorom92',
+
+    mark: '✔',
+
+    link: 'https://gera-organic-farm-website.vercel.app/',
 
     linkicon : links
 
