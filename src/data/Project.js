@@ -142,6 +142,28 @@ export const Project =  [
 
   
   },
+  {
+    id: 7,
+
+    emoji: '🎵',
+
+    title: 'Record Label Site', 
+
+    description: "Record Label Site is a responsive website designed to showcase the music and artists of a record label. The project focuses on creating an engaging user experience, highlighting the label's offerings, and providing users with an easy way to navigate through the site.",
+
+    status: 'COMPLETED',
+    update: 'live',
+
+    github: 'https://github.com/Chizorom92',
+
+    mark: '✔',
+
+    link: 'https://record-label-site.vercel.app/',
+
+    linkicon : links
+
+  
+  },
 
 
 ]

@@ -328,7 +328,7 @@ button[type="submit"]:disabled {
 
   textarea {
     min-height: 110px;
-    cols: unset;
+    /* cols: unse-t; */
   }
 
   button[type="submit"] {
