@@ -13,7 +13,7 @@ const Header = () => {
     <main className="header-main">
       <div className="header-intro">
         <span className="header-name">Hi, I am  <br />Benjamin Chizorom</span>
-        <small className="header-skill">FullStack Developer</small>
+        <small className="header-skill">Full-Stack Developer</small>
 
         <span className="header-btn">
          <a href={benCv} download="ben-cv.pdf"> <button id="cv">Download my CV / Resume</button>  </a>
