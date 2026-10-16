@@ -45,7 +45,7 @@ const renderPage = (page, setPage) => {
 
 
 
-function App() {
+function App() {    
   const [page, setPage] = useState('header')
 
   return (

@@ -42,7 +42,7 @@ const Skills = () => {
         </div>
 
         <div className="skill-info">
-          <span id="value">10%</span> <br />
+          <span id="value">25%</span> <br />
           <span id="skillName">JAVA</span>
         </div>
       </div>

@@ -93,7 +93,7 @@ h1::after {
 .skill-info:nth-child(5)::after { width: 65%; }
 .skill-info:nth-child(6)::after { width: 50%; }
 .skill-info:nth-child(7)::after { width: 60%; }
-.skill-info:nth-child(8)::after { width: 10%; }
+.skill-info:nth-child(8)::after { width: 25%; }
 
 
 /* ─── Large Laptops (1024px – 1199px) ─── */
