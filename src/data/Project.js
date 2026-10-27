@@ -123,13 +123,13 @@ export const Project = [
       "ChowNow is a responsive food delivery website designed to provide users with a seamless online ordering experience. The project focuses on showcasing restaurant menus, facilitating easy navigation for users to place their orders and showcasing pharmacies and their products, allowing users to explore and order from local pharmacies conveniently. Bill payment will be integrated in the future.",
 
     status: "in progress",
-    update: "Comming Soon",
+    update: "On Hold",
 
     github: "https://github.com/Chizorom92",
 
     mark: "⌛",
 
-    link: 'https://gera-organic-farm-website.vercel.app/',
+    // link: 'https://gera-organic-farm-website.vercel.app',
 
     linkicon: links,
   },
